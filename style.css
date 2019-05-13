@@ -1,0 +1,27 @@
+body {
+    direction: rtl;
+    text-align: right;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.rowclearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.column {
+    float: right; 
+}
+
+.container {
+    width: 900px;
+    margin: auto; 
+}
+
