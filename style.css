@@ -23,5 +23,75 @@ body {
 .container {
     width: 900px;
     margin: auto; 
+    background-color: lightgreen;
 }
 
+header {
+    background-color: #909090;
+    position: relative;
+    height: 100px;
+}
+
+ul {
+    border: 1px solid;
+    height: 100px;
+}
+
+#logo {
+    position: absolute;
+    bottom: -20px;
+    }
+
+#menu {
+    position: absolute;
+    /* padding-top: 70px; */
+    padding-right:150px;
+    /* background-color: white; */
+    bottom: 30px;
+    float: left;
+}
+
+.rowclearfix {
+    float: left; 
+    
+}
+
+nav { 
+    background-color: aqua;
+
+}
+
+
+.container1 > .cube1, .cube2, .cube3 {
+display: flex;
+width: 900px;
+margin: auto; 
+position: relative;
+
+}
+
+.img {
+   width: 33%;
+   padding: 5px;
+}
+
+.fontonimage {
+    position: absolute;
+    bottom: 20px;
+}
+
+.fontonimage > h4, p , a {
+width: 250px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+background-color: gray;
+opacity: 0.8; 
+}
+
+/* .cube > h4, p , a {
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: gray;
+    opacity: 0.8;
+} */
