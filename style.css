@@ -39,6 +39,7 @@ header {
     background-color: #909090;
     position: relative;
     height: 105px;
+    margin-bottom: 50px; 
 }
 
 nav { 
@@ -82,18 +83,18 @@ nav > ul > li > a {
     float: left;
 } */ 
 
-.rowclearfix {
+/* .rowclearfix {
     float: left; 
     
-}
+} */
 
-.container1 > .cube1, .cube2, .cube3 {
+/* .container1 > .cube1, .cube2, .cube3 {
 display: flex;
 width: 900px;
 margin: auto; 
 position: relative;
 
-}
+} */
 
 .img {
    width: 33%;
@@ -130,3 +131,62 @@ width: 292px;
 height: 212px;
 } */
 
+.cube2 {
+    float: right; 
+    width: 292px;
+    height: 216px; 
+    position: relative;
+}
+
+.content2 {
+    position: absolute;
+    bottom: 30px; 
+    right: 20px;
+}
+
+h4 {
+    font-family: arial; 
+
+
+}
+
+.content3 {
+    position: absolute;
+    bottom: 5px; 
+    right: 20px;
+    width: 272px;
+    height: 192.53;
+
+}
+
+/* .row {
+  padding-top: 10px; 
+    
+
+
+} */
+
+/* .content3 > .row {
+    position: absolute;
+    float: right; 
+} */
+
+footer {
+    background-color: #909090;
+    position: fixed;
+    height: 30px;
+    bottom: 0px;
+    width: 1903px; 
+    margin-bottom:20px;
+    
+}
+
+.footer > ul > li  
+     {
+        margin: 0;
+        bottom: 0px;
+           
+     }
+/* .footer {
+ margin:auto;
+} */
