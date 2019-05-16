@@ -190,3 +190,41 @@ footer {
 /* .footer {
  margin:auto;
 } */
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #ddd;
+    width: 50px;
+    position: absolute;
+    /*top: 0;*/
+    /*left: 75px;*/
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+  }
+  
+  .dropdown-content > a {
+    display:block;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+  }
+  
+  .dropdown-content > a:hover {
+    background-color: #eee;
+  }
+  
+  .dropdown:hover > .dropdown-content {
+    display: block;
+  }
+  
+  ul {
+      z-index: 99;
+  }
+  
