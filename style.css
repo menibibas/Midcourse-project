@@ -67,6 +67,8 @@ nav > ul > li > a {
     font-family: arial;
     padding: 5px;
     color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 #logo {
@@ -201,7 +203,7 @@ footer {
   .dropdown-content {
     display: none;
     background-color: #ddd;
-    width: 50px;
+    width: 150px;
     position: absolute;
     /*top: 0;*/
     /*left: 75px;*/
@@ -213,18 +215,45 @@ footer {
     display:block;
     text-decoration: none;
     padding: 5px;
-    color: black;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+    border-bottom: 0.2px solid#BCBCBC;
   }
   
   .dropdown-content > a:hover {
-    background-color: #eee;
+    background-color: #BCBCBC;
+    color: #005CA0;
+    text-decoration: underline;
+    
   }
   
   .dropdown:hover > .dropdown-content {
     display: block;
+    background-color: #BCBCBC;
+    color: #005CA0;
+    text-decoration: none;
+    
   }
   
   ul {
       z-index: 99;
+      
   }
   
+  a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px;
+    text-decoration: none;
+    background-color: #909090;
+  }
+
+  a:hover{
+    color: #005CA0;
+    text-decoration: underline;
+  } 
+
+  }
