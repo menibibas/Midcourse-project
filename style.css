@@ -162,8 +162,8 @@ height: 212px;
 h4 {
    font-family: arial; 
     margin-bottom: 15px;
-      }
-
+    color: darkslategray;
+}
 #line {
     margin: 0px;
 }
@@ -272,4 +272,55 @@ footer {
     text-decoration: underline;
   } 
 
-  
+  .red {
+      color:red;
+  }
+
+  #menu > a {
+      color:black;
+      background-color: #E0E0E0;
+      font-weight: initial;
+      padding: 8px; 
+      padding-left: 70px;
+  }
+
+#menu > h8 {
+    display: inline-block;
+    
+}
+
+#menu > h8 > a {
+    
+    color: black;
+    background-color: white;
+    font-weight: initial;
+    
+}
+
+#menu > h4 {
+    margin-right: 140px;
+    text-decoration: underline;
+}
+
+.card1  {
+    float: right;
+    position: relative;
+    left: -140px;
+}
+
+.form {
+    position: absolute;
+    top: 0px; 
+    right: 20px;
+    
+}
+
+h5 { 
+    margin: 0px;
+}
+
+label {
+    display: inline-block;
+    padding-left: 0;
+    padding: 5px; 
+}
