@@ -194,18 +194,20 @@ footer {
     bottom: 0px;
     width: 1903px; 
     margin-bottom: 0px;
+    right: -500px; 
     
 }
 
-.footer > ul > li  
-     {
+ footer > ul  >   {
         margin: 0;
-        bottom: 0px;
-           
-     }
-/* .footer {
- margin:auto;
-} */
+        bottom: 0px; 
+      
+         } 
+
+.footer > ul > li {
+    padding-left: 2px; 
+    padding-right: 2px;
+}
 
 
 .dropdown {
