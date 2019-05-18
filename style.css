@@ -323,7 +323,7 @@ footer {
 }
 
 .form > h5 {
-    color: black;
+    color:#72716D;
     font-family:"arial";
     font-weight: bold;
 }
@@ -397,7 +397,7 @@ input.buttons {
 }
 
 .form2 > h5 {
-    color: black;
+    color: #72716D;
     font-family:"arial";
     font-weight: bold;
 }
@@ -408,3 +408,53 @@ font-family:"arial";
 font-size: 0.8em;
 background-color: initial;
 }
+
+.card3  {
+    float: left;
+    position: relative;
+    left: -300px;
+    top: -170px;
+}
+
+.form3 {
+    position: absolute;
+    top: 0px; 
+    right: 20px;
+    
+}
+
+.form3 > h4 {
+ color: #005CA0;
+ margin-bottom: 0px;
+
+}
+
+.form3 > h5 {
+    color:#72716D;
+    font-family:"arial";
+    font-weight: bold;
+}
+
+.form3 > a {
+font-family:"arial";
+font-size: 0.8em;
+background-color: initial;
+color: blue;
+padding-right: 0px;
+font-weight: initial;
+}
+
+.form3 > a:hover {
+    color: #005CA0;
+
+}
+
+#menu > a:hover {
+    color: #005CA0;
+
+}
+
+#menu > h8 > a:hover {
+    color: #005CA0; 
+}
+
