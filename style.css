@@ -300,6 +300,7 @@ footer {
 #menu > h4 {
     margin-right: 140px;
     text-decoration: underline;
+    
 }
 
 .card1  {
@@ -315,6 +316,27 @@ footer {
     
 }
 
+.form > h4 {
+ color: #005CA0;
+ margin-bottom: 5px;
+
+}
+
+.form > h5 {
+    color: black;
+    font-family:"arial";
+    font-weight: bold;
+}
+
+.form > p {
+    color: black;
+    font-family:"arial";
+    font-size: 0.8em;
+    background-color: initial;
+    margin-bottom: 5px;
+}
+
+
 h5 { 
     margin: 0px;
 }
@@ -323,6 +345,7 @@ label {
     display: inline-block;
     padding-left: 0;
     padding: 5px; 
+    font-family: arial;
 }
 
 input.width {
@@ -338,6 +361,8 @@ input {
 
 textarea {
     margin-right: 90px;
+    font-family: arial;
+    
 }
 
 input.buttons {
@@ -349,4 +374,37 @@ input.buttons {
     color: white;
     background-color:  #005CA0
        
+}
+
+.card2  {
+    float: left;
+    position: relative;
+    left: -10px;
+    top: -360px;
+}
+
+.form2 {
+    position: absolute;
+    top: 0px; 
+    right: 20px;
+    
+}
+
+.form2 > h4 {
+ color: #005CA0;
+ margin-bottom: 0px;
+
+}
+
+.form2 > h5 {
+    color: black;
+    font-family:"arial";
+    font-weight: bold;
+}
+
+.form2 > p {
+color: black;
+font-family:"arial";
+font-size: 0.8em;
+background-color: initial;
 }
