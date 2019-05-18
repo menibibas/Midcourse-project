@@ -324,3 +324,29 @@ label {
     padding-left: 0;
     padding: 5px; 
 }
+
+input.width {
+    float: left;
+  
+    
+}
+
+input {
+    margin-left: 40px;
+}
+
+
+textarea {
+    margin-right: 90px;
+}
+
+input.buttons {
+    float: left;
+    margin-left: 40px;
+}
+
+.buttons {
+    color: white;
+    background-color:  #005CA0
+       
+}
